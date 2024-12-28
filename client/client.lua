@@ -100,7 +100,7 @@ AddEventHandler("esx_case:spawnCase", function()
         local playerPed = PlayerPedId()
         local playerCoords = GetEntityCoords(playerPed)
 
-        local caseModel = GetHashKey("prop_security_case_01")
+        local caseModel = GetHashKey(Config.CaseHashKey)
         local new_case = CreateObject(caseModel, playerCoords.x, playerCoords.y, playerCoords.z, true, true, true)
 
         local hand = GetEntityBoneIndexByName(playerPed, "IK_R_Hand")
