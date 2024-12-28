@@ -16,3 +16,7 @@ Config.CanHoldWeaponWithCase = true
 -- Save amount of money to show the case
 Config.Amount = 10
 
+-- Case
+
+Config.CaseHashKey = "prop_security_case_01"
+
